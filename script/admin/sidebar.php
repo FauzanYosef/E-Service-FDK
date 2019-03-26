@@ -49,7 +49,7 @@
 								<div><em class="fa fa-envelope"></em> 1 New Message
 									<span class="pull-right text-muted small">3 mins ago</span></div>
 							</a></li>
-							<li class="divider"></li>
+							<!-- <li class="divider"></li>
 							<li><a href="#">
 								<div><em class="fa fa-heart"></em> 12 New Likes
 									<span class="pull-right text-muted small">4 mins ago</span></div>
@@ -58,7 +58,7 @@
 							<li><a href="#">
 								<div><em class="fa fa-user"></em> 5 New Followers
 									<span class="pull-right text-muted small">4 mins ago</span></div>
-							</a></li>
+							</a></li> -->
 						</ul>
 					</li>
 				</ul>
@@ -83,23 +83,17 @@
 			</div>
 		</form>
 		<ul class="nav menu">
-			<li class="active"><a href="dash_admin.php"><em class="fa fa-dashboard">&nbsp;</em> Dashboard</a></li>
-			<li><a href="widgets.php"><em class="fa fa-calendar">&nbsp;</em> Widgets</a></li>
-			<li><a href="charts.php"><em class="fa fa-bar-chart">&nbsp;</em> Charts</a></li>
-			<li><a href="elements.php"><em class="fa fa-toggle-off">&nbsp;</em> UI Elements</a></li>
-			<li><a href="panels.php"><em class="fa fa-clone">&nbsp;</em> Alerts &amp; Panels</a></li>
+			<li class="active"><a href="dash_admin.php"><em class="fa fa-area-chart">&nbsp;</em> Chart</a></li>
+			<li><a href="beranda.php"><em class="fa fa-dashboard">&nbsp;</em> Dashboard</a></li>
 			<li class="parent "><a data-toggle="collapse" href="#sub-item-1">
-				<em class="fa fa-navicon">&nbsp;</em> Multilevel <span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"><em class="fa fa-plus"></em></span>
+				<em class="fa fa-navicon">&nbsp;</em> Panel <span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"><em class="fa fa-plus"></em></span>
 				</a>
 				<ul class="children collapse" id="sub-item-1">
 					<li><a class="" href="#">
-						<span class="fa fa-arrow-right">&nbsp;</span> Sub Item 1
+						<span class="fa fa-arrow-right">&nbsp;</span>Mahasiswa
 					</a></li>
 					<li><a class="" href="#">
-						<span class="fa fa-arrow-right">&nbsp;</span> Sub Item 2
-					</a></li>
-					<li><a class="" href="#">
-						<span class="fa fa-arrow-right">&nbsp;</span> Sub Item 3
+						<span class="fa fa-arrow-right">&nbsp;</span>Dosen
 					</a></li>
 				</ul>
 			</li>

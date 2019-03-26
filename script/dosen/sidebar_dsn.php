@@ -30,8 +30,8 @@
 			</div>
 		</form>
 		<ul class="nav menu">
-			<li class="active"><a href="dash_mhs.php"><em class="fa fa-dashboard">&nbsp;</em> Dashboard</a></li>
-			<li class="parent "><a data-toggle="collapse" href="#pen_surat">
+			<li class="active"><a href="dash_dsn.php"><em class="fa fa-dashboard">&nbsp;</em> Dashboard</a></li>
+			<!-- <li class="parent "><a data-toggle="collapse" href="#pen_surat">
 				<em class="fa fa-envelope">&nbsp;</em> Pengajuan Surat <span data-toggle="collapse" href="#pen_surat" class="icon pull-right"><em class="fa fa-arrow-circle-down"></em></span>
 				</a>
 				<ul class="children collapse" id="pen_surat">
@@ -60,7 +60,7 @@
                     <li><a href="#">
                     <span class="fa fa-envelope-open">&nbsp;</span>SPMK</a></li>
 				</ul>
-			</li>
+			</li> -->
 			<li><a href="../../index.php"><em class="fa fa-power-off">&nbsp;</em> Logout</a></li>
 		</ul>
 	</div><!--/.sidebar-->

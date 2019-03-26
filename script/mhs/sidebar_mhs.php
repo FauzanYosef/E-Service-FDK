@@ -47,9 +47,9 @@
                     <span class="fa fa-envelope-open">&nbsp;</span>Bimbingan Skripsi</a></li>
                     <li><a href="form_penelitian.php">
                     <span class="fa fa-envelope-open">&nbsp;</span>Izin Penelitian</a></li>
-                    <li><a href="#">
+                    <li><a href="form_pkl.php">
                     <span class="fa fa-envelope-open">&nbsp;</span>PKL</a></li>
-                    <li><a href="#">
+                    <li><a href="form_skl.php">
                     <span class="fa fa-envelope-open">&nbsp;</span>SKL</a></li>
                     <li><a href="#">
                     <span class="fa fa-envelope-open">&nbsp;</span>Legalisir Ijazah</a></li>
@@ -57,7 +57,7 @@
                     <span class="fa fa-envelope-open">&nbsp;</span>Transkrip Nilai</a></li>
                     <li><a href="#">
                     <span class="fa fa-envelope-open">&nbsp;</span>Pengambilan Ijazah</a></li>
-                    <li><a href="#">
+                    <li><a href="form_spmk.php">
                     <span class="fa fa-envelope-open">&nbsp;</span>SPMK</a></li>
 				</ul>
 			</li>
