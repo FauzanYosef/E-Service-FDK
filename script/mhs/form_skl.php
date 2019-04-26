@@ -13,7 +13,7 @@
 		
 		<div class="row">
 			<div class="col-lg-12">
-				<h1 class="page-header">Form Pengajuan Surat</h1>
+				<h1 class="page-header">Form Pengajuan Surat Keterangan Lulus</h1>
 			</div>
 		</div><!--/.row-->
 		
@@ -85,7 +85,12 @@
 											<div class="form-group">
 												<label class="col-md-3 control-label" for="tgl_lulus">Tanggal Lulus (Munaqosyah)</label>
 												<div class="col-md-6">
-													<input id="tgl_lulus" name="tgl_lulus" type="text" placeholder="" class="form-control">
+													<div class="input-group date">
+													    <div class="input-group-addon">
+													       	<span class="glyphicon glyphicon-th"></span>
+													 	</div>
+													    <input placeholder="yyyy/mm/dd" type="text" class="form-control datepicker" name="tgl_lulus">
+													</div>
 												</div>
 											</div>
 											

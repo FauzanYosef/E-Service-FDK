@@ -13,7 +13,7 @@
 		
 		<div class="row">
 			<div class="col-lg-12">
-				<h1 class="page-header">Form Izin Penelitian</h1>
+				<h1 class="page-header">Form Surat Izin Penelitian</h1>
 			</div>
 		</div><!--/.row-->
 		
@@ -80,19 +80,18 @@
 												<div class="col-md-6">
 													<input id="telp" name="telp" type="text" placeholder="" class="form-control">
 												</div>
-											</div>
-
+											</div>								
 											<div class="form-group">
 												<label class="col-md-3 control-label" for="tmp_penelitian">Nama Instansi/Tempat Penelitian</label>
 												<div class="col-md-6">
-													<input id="tmp_penelitian" name="tmp_penelitian" type="text" placeholder="" class="form-control">
+													<textarea class="form-control" id="tmp_penelitian" name="tmp_penelitian" placeholder="" rows="5"></textarea>
 												</div>
 											</div>
 
 											<div class="form-group">
-												<label class="col-md-3 control-label" for="alm_penelitian">Alamat Instansi</label>
+												<label class="col-md-3 control-label" for="alm_peneletian">Alamat Penelitian</label>
 												<div class="col-md-6">
-													<input id="alm_penelitian" name="alm_penelitian" type="text" placeholder="" class="form-control">
+													<textarea class="form-control" id="alm_peneletian" name="alm_peneletian" placeholder="" rows="5"></textarea>
 												</div>
 											</div>
 

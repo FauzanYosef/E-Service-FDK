@@ -13,7 +13,7 @@
 		
 		<div class="row">
 			<div class="col-lg-12">
-				<h1 class="page-header">Form Pengajuan Surat</h1>
+				<h1 class="page-header">Form Pengajuan Surat Aktif Kuliah</h1>
 			</div>
 		</div><!--/.row-->
 		
@@ -81,7 +81,7 @@
 													<input id="telp" name="telp" type="text" placeholder="" class="form-control">
 												</div>
 											</div>
-
+												
 											<div class="form-group">
 												<label class="col-md-3 control-label" for="kpr_sak">Untuk Keperluan</label>
 												<div class="col-md-6">

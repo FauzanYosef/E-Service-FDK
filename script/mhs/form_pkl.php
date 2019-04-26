@@ -13,7 +13,7 @@
 		
 		<div class="row">
 			<div class="col-lg-12">
-				<h1 class="page-header">Form Pengajuan Surat</h1>
+				<h1 class="page-header">Form Pengajuan Surat Praktek Kerja Lapangan</h1>
 			</div>
 		</div><!--/.row-->
 		
@@ -86,6 +86,13 @@
 												<label class="col-md-3 control-label" for="tmp_pkl">Nama Instansi/Lembaga</label>
 												<div class="col-md-6">
 													<textarea class="form-control" id="tmp_pkl" name="tmp_pkl" placeholder="" rows="5"></textarea>
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label class="col-md-3 control-label" for="alm_pkl">Alamat Instansi</label>
+												<div class="col-md-6">
+													<textarea class="form-control" id="alm_pkl" name="alm_pkl" placeholder="" rows="5"></textarea>
 												</div>
 											</div>
 																	

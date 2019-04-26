@@ -1044,3 +1044,36 @@ p.back-link {
   width: 100px;
 }
 
+/*Logo-name*/
+.logo-name{
+  display: flex;
+  align-items:center;
+  margin-left: 2rem;
+}
+
+.logo-name .name h5{
+  // font-weight: bold;
+  font-size: 2.3rem;
+  text-decoration: none;
+  color: rgb(50,50,50);
+}
+
+.logo-name .name a:hover{
+  text-decoration: none;
+}
+
+.logo-name .name{
+  margin-left: 1rem;
+}
+
+.logo-name .name h5:nth-child(1){
+  margin-bottom: 0.3rem;
+}
+
+.logo-name .name h5:nth-child(2){
+  margin-top: 0.1rem;
+}
+
+.logo-name .logo img{
+  width: 100px;
+}

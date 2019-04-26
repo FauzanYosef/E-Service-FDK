@@ -13,7 +13,7 @@
 		
 		<div class="row">
 			<div class="col-lg-12">
-				<h1 class="page-header">Form Pengajuan Surat</h1>
+				<h1 class="page-header">Form Pengajuan Surat Pernyataan Masih Kuliah</h1>
 			</div>
 		</div><!--/.row-->
 		

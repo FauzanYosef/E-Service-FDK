@@ -13,7 +13,7 @@
 		
 		<div class="row">
 			<div class="col-lg-12">
-				<h1 class="page-header">Form Pengajuan Surat Observasi</h1>
+				<h1 class="page-header">Form Pengajuan Surat Legalisir Ijazah/Transkrip Nilai</h1>
 			</div>
 		</div><!--/.row-->
 		
@@ -76,23 +76,16 @@
 											</div>
 
 											<div class="form-group">
-												<label class="col-md-3 control-label" for="telp">Telepon</label>
+												<label class="col-md-3 control-label" for="kpr_lain">Untuk Keperluan</label>
 												<div class="col-md-6">
-													<input id="telp" name="telp" type="text" placeholder="" class="form-control">
+													<textarea class="form-control" id="kpr_lain" name="kpr_lain" placeholder="" rows="5"></textarea>
 												</div>
 											</div>
 
 											<div class="form-group">
-												<label class="col-md-3 control-label" for="matkul">Mata Kuliah</label>
+												<label class="col-md-3 control-label" for="ket_surat">Keterangan Spesifik</label>
 												<div class="col-md-6">
-													<input id="matkul" name="matkul" type="text" placeholder="" class="form-control">
-												</div>
-											</div>
-
-											<div class="form-group">
-												<label class="col-md-3 control-label" for="tmp_observasi">Tempat Observasi</label>
-												<div class="col-md-6">
-													<textarea class="form-control" id="tmp_observasi" name="tmp_observasi" placeholder="" rows="5"></textarea>
+													<textarea class="form-control" id="ket_surat" name="ket_surat" placeholder="" rows="5"></textarea>
 												</div>
 											</div>
 											

@@ -13,7 +13,7 @@
 		
 		<div class="row">
 			<div class="col-lg-12">
-				<h1 class="page-header">Form Pengajuan Surat Observasi</h1>
+				<h1 class="page-header">Form Pengajuan Surat Legalisir Ijazah/Transkrip Nilai</h1>
 			</div>
 		</div><!--/.row-->
 		
@@ -76,26 +76,17 @@
 											</div>
 
 											<div class="form-group">
-												<label class="col-md-3 control-label" for="telp">Telepon</label>
+												<label class="col-md-3 control-label" for="tgl_sidang">Tanggal Sidang</label>
 												<div class="col-md-6">
-													<input id="telp" name="telp" type="text" placeholder="" class="form-control">
+													<div class="input-group date">
+													    <div class="input-group-addon">
+													       	<span class="glyphicon glyphicon-th"></span>
+													 	</div>
+													    <input placeholder="yyyy/mm/dd" type="text" class="form-control datepicker" name="tgl_sidang">
+													</div>
 												</div>
 											</div>
 
-											<div class="form-group">
-												<label class="col-md-3 control-label" for="matkul">Mata Kuliah</label>
-												<div class="col-md-6">
-													<input id="matkul" name="matkul" type="text" placeholder="" class="form-control">
-												</div>
-											</div>
-
-											<div class="form-group">
-												<label class="col-md-3 control-label" for="tmp_observasi">Tempat Observasi</label>
-												<div class="col-md-6">
-													<textarea class="form-control" id="tmp_observasi" name="tmp_observasi" placeholder="" rows="5"></textarea>
-												</div>
-											</div>
-											
 											<!-- Form actions -->
 											<div class="form-group">
 												<div class="col-md-6 widget-right">
