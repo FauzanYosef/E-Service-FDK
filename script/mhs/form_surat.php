@@ -43,9 +43,16 @@
 											</div>
 											
 											<div class="form-group">
-												<label class="col-md-3 control-label" for="prodi">Program Studi</label>
+												<label class="col-md-3 control-label">Program Studi</label>
 												<div class="col-md-6">
-													<input id="prodi" name="prodi" type="text" placeholder="" class="form-control">
+												<select class="form-control">
+													<option>401 - Bimbingan Konseling Islam</option>
+													<option>402 - Komunikasi dan Penyiaran Islam</option>
+													<option>403 - Manajemen Dakwah</option>
+													<option>404 - Pengembangan Masyarakat Islam</option>
+													<option>405 - Ilmu Komunikasi Jurnalitik</option>
+													<option>406 - Ilmu Komunikasi Humas</option>
+												</select>
 												</div>
 											</div>
 
