@@ -39,9 +39,9 @@
 						<form class="form-horizontal" action="" method="post">
 							<fieldset>
 								<div class="form-group">
-									<label class="col-md-2 control-label" for="nama">Name</label>
+									<label class="col-md-2 control-label" for="nama">Nama</label>
 									<div class="col-md-4">
-										<input id="nama" name="nama" type="text" placeholder="" class="form-control">
+										<input id="nama" name="nama" type="text" placeholder="Nama" class="form-control">
 									</div>
 									<label class="col-md-1 control-label" for="status">Status</label>
 									<div class="col-md-4">
@@ -56,27 +56,35 @@
 								<div class="form-group">
 									<label class="col-md-2 control-label" for="nim">NIM</label>
 									<div class="col-md-4">
-										<input id="nim" name="nim" type="text" placeholder="" class="form-control">
+										<input id="nim" name="nim" type="text" placeholder="NIM" class="form-control">
 									</div>
 									<label class="col-md-1 control-label" for="tgl_surat">Tanggal</label>
 									<div class="col-md-4">
-										<div class="input-group date">
+										
+										<div class='input-group date'>
 										    <div class="input-group-addon">
 										           <span class="glyphicon glyphicon-th"></span>
 										       </div>
 										       <input placeholder="Masukan Tanggal Surat" type="text" class="form-control datepicker" name="tgl_surat">
 										</div>
+
 									</div>
 								</div>
 								<div class="form-group">
 									<label class="col-md-2 control-label" for="no_surat">Nomor Surat</label>
 									<div class="col-md-4">
-										<input id="no_surat" name="no_surat" type="text" placeholder="" class="form-control">
+										<input id="no_surat" name="no_surat" type="text" placeholder="Nomor Surat" class="form-control">
 									</div>
-								<!-- 	<label class="col-md-1 control-label" for="nama">Name</label>
+								<label class="col-md-1 control-label" for="status">Jenis</label>
 									<div class="col-md-4">
-										<input id="nama" name="nama" type="text" placeholder="" class="form-control">
-									</div> -->
+										<select class="form-control">
+											<option>S-01</option>
+											<option>S-02</option>
+											<option>S-03</option>
+											<option>S-04</option>
+										</select>
+									</div>
+								</div>
 								</div>
 								<!-- Form actions -->
 								<div class="form-group">
@@ -116,7 +124,7 @@
 										<th>Tanggal Surat</th>
 										<th>Waktu Pengajuan</th>
 										<th>Status</th>
-										<th>Proses</th>
+										<th>Jenis Surat</th>
 										<th>Actions</th>
 									</tr>
 								</thead>
@@ -128,7 +136,7 @@
 										<td>(not set)</td>
 										<td>(not set)</td>
 										<td>26 Desember 2019</td>
-										<td><button type="button" class="btn btn-sm btn-primary">Open</button></td>
+										<td>S-02</td>
 										<td><button type="button" class="btn btn-sm btn-primary"><em class="fa fa-arrow-circle-right"> </em> Proces</button></td>
 										<td>
 											<button type="submit" class="btn btn-sm btn-primary"><em class="fa fa-print"> </em></button>

@@ -31,14 +31,14 @@
 											<div class="form-group">
 												<label class="col-md-3 control-label" for="nama">Nama</label>
 												<div class="col-md-6">
-													<input id="nama" name="nama" type="text" placeholder="" class="form-control">
+													<input id="nama" name="nama" type="text" placeholder="Nama" class="form-control">
 												</div>
 											</div>
 										
 											<div class="form-group">
 												<label class="col-md-3 control-label" for="nim">NIM</label>
 												<div class="col-md-6">
-													<input id="nim" name="nim" type="text" placeholder="" class="form-control">
+													<input id="nim" name="nim" type="text" placeholder="NIM" class="form-control">
 												</div>
 											</div>
 											
@@ -59,7 +59,7 @@
 											<div class="form-group">
 												<label class="col-md-3 control-label" for="semester">Semester</label>
 												<div class="col-md-6">
-													<input id="semester" name="semester" type="text" placeholder="" class="form-control">
+													<input id="semester" name="semester" type="text" placeholder="Semester" class="form-control">
 												</div>
 											</div>
 
@@ -70,7 +70,7 @@
 													    <div class="input-group-addon">
 													       	<span class="glyphicon glyphicon-th"></span>
 													 	</div>
-													    <input placeholder="yyyy/mm/dd" type="text" class="form-control datepicker" name="tgl_lahir">
+													    <input placeholder="dd/mm/yyyy type="text" class="form-control datepicker" name="tgl_lahir">
 													</div>
 												</div>
 											</div>
@@ -78,14 +78,14 @@
 											<div class="form-group">
 												<label class="col-md-3 control-label" for="alamat">Alamat</label>
 												<div class="col-md-6">
-													<textarea class="form-control" id="alamat" name="alamat" placeholder="" rows="5"></textarea>
+													<textarea class="form-control" id="alamat" name="alamat" placeholder="Alamat Harus Jelas Ex: Jln. Babakan Desa No.1, Cibiru, Pasirbiru Kota Bandung" rows="5"></textarea>
 												</div>
 											</div>
 
 											<div class="form-group">
 												<label class="col-md-3 control-label" for="telp">Telepon</label>
 												<div class="col-md-6">
-													<input id="telp" name="telp" type="text" placeholder="" class="form-control">
+													<input id="telp" name="telp" type="text" placeholder="Nomor Telepon" class="form-control">
 												</div>
 											</div>
 
@@ -104,21 +104,21 @@
 											<div class="form-group">
 												<label class="col-md-3 control-label" for="jdl_skripsi">Judul Skripsi</label>
 												<div class="col-md-6">
-													<input id="jdl_skripsi" name="jdl_skripsi" type="text" placeholder="" class="form-control">
+													<input id="jdl_skripsi" name="jdl_skripsi" type="text" placeholder="Judul Skripsi Harus Jelas dan lengkap" class="form-control">
 												</div>
 											</div>
 
 											<div class="form-group">
 												<label class="col-md-3 control-label" for="pem_1">Pembimbing 1</label>
 												<div class="col-md-6">
-													<input id="pem_1" name="pem_1" type="text" placeholder="" class="form-control">
+													<input id="pem_1" name="pem_1" type="text" placeholder="Nama Pembimbing harus dengan gelar" class="form-control">
 												</div>
 											</div>
 
 											<div class="form-group">
 												<label class="col-md-3 control-label" for="pem_2">Pembimbing 2</label>
 												<div class="col-md-6">
-													<input id="pem_2" name="pem_2" type="text" placeholder="" class="form-control">
+													<input id="pem_2" name="pem_2" type="text" placeholder="Nama Pembimbing harus dengan gelar" class="form-control">
 												</div>
 											</div>
 

@@ -31,14 +31,14 @@
 											<div class="form-group">
 												<label class="col-md-3 control-label" for="nama">Nama</label>
 												<div class="col-md-6">
-													<input id="nama" name="nama" type="text" placeholder="" class="form-control">
+													<input id="nama" name="nama" type="text" placeholder="Nama" class="form-control">
 												</div>
 											</div>
 										
 											<div class="form-group">
 												<label class="col-md-3 control-label" for="nim">NIM</label>
 												<div class="col-md-6">
-													<input id="nim" name="nim" type="text" placeholder="" class="form-control">
+													<input id="nim" name="nim" type="text" placeholder="NIM" class="form-control">
 												</div>
 											</div>
 											
@@ -59,7 +59,7 @@
 											<div class="form-group">
 												<label class="col-md-3 control-label" for="semester">Semester</label>
 												<div class="col-md-6">
-													<input id="semester" name="semester" type="text" placeholder="" class="form-control">
+													<input id="semester" name="semester" type="text" placeholder="Semester" class="form-control">
 												</div>
 											</div>
 
@@ -70,7 +70,7 @@
 													    <div class="input-group-addon">
 													       	<span class="glyphicon glyphicon-th"></span>
 													 	</div>
-													    <input placeholder="yyyy/mm/dd" type="text" class="form-control datepicker" name="tgl_lahir">
+													    <input placeholder="dd/mm/yyyy" type="text" class="form-control datepicker" name="tgl_lahir">
 													</div>
 												</div>
 											</div>
@@ -78,35 +78,35 @@
 											<div class="form-group">
 												<label class="col-md-3 control-label" for="alamat">Alamat</label>
 												<div class="col-md-6">
-													<textarea class="form-control" id="alamat" name="alamat" placeholder="" rows="5"></textarea>
+													<textarea class="form-control" id="alamat" name="alamat" placeholder="Alamat Harus Jelas Ex: Jln. Babakan Desa No.1, Cibiru, Pasirbiru Kota Bandung" rows="5"></textarea>
 												</div>
 											</div>
 
 											<div class="form-group">
 												<label class="col-md-3 control-label" for="nama_ortu">Nama Orang Tua</label>
 												<div class="col-md-6">
-													<input id="nama_ortu" name="nama_ortu" type="text" placeholder="" class="form-control">
+													<input id="nama_ortu" name="nama_ortu" type="text" placeholder="Nama Orang Tua" class="form-control">
 												</div>
 											</div>
 
 											<div class="form-group">
 												<label class="col-md-3 control-label" for="nip">NIP</label>
 												<div class="col-md-6">
-													<input id="nip" name="nip" type="text" placeholder="" class="form-control">
+													<input id="nip" name="nip" type="text" placeholder="NIP" class="form-control">
 												</div>
 											</div>
 
 											<div class="form-group">
 												<label class="col-md-3 control-label" for="pangkat">Pangkat/Golongan</label>
 												<div class="col-md-6">
-													<input id="pangkat" name="pangkat" type="text" placeholder="" class="form-control">
+													<input id="pangkat" name="pangkat" type="text" placeholder="Ex : IVA" class="form-control">
 												</div>
 											</div>
 											
 											<div class="form-group">
 												<label class="col-md-3 control-label" for="nama_instansi">Instansi</label>
 												<div class="col-md-6">
-													<textarea class="form-control" id="nama_instansi" name="nama_instansi" placeholder="" rows="5"></textarea>
+													<textarea class="form-control" id="nama_instansi" name="nama_instansi" placeholder="Nama Instansi harus jelas, ex : UIN Sunan Gunung Djati Bandung" rows="5"></textarea>
 												</div>
 											</div>
 											<!-- Form actions -->

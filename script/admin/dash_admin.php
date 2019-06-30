@@ -43,7 +43,7 @@
 			</div>
 		</div> -->
 		
-		<div class="row">
+		<!-- <div class="row">
 			<div class="col-md-12">
 				<div class="panel panel-default">
 					<div class="panel-heading">
@@ -79,7 +79,7 @@
 					</div>
 				</div>
 			</div>
-		</div><!--/.row-->
+		</div> --><!--/.row-->
 
 		<div class="row">
 			<div class="col-md-12">
@@ -96,6 +96,7 @@
 										<th>Nama</th>
 										<th>NIM</th>
 										<th>Keperluan</th>
+										<th>Jenis Surat</th>
 										<th>Actions</th>
 									</tr>
 								</thead>
@@ -104,6 +105,7 @@
 										<td>1</td>
 										<td>Asep Sudarso</td>
 										<td>11447799</td>
+										<td>(not set)</td>
 										<td>(not set)</td>
 										<td>
 											<button type="submit" class="btn btn-sm btn-primary"><em class="fa fa-print"> </em></button>

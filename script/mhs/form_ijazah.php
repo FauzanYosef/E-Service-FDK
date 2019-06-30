@@ -31,14 +31,14 @@
 											<div class="form-group">
 												<label class="col-md-3 control-label" for="nama">Nama</label>
 												<div class="col-md-6">
-													<input id="nama" name="nama" type="text" placeholder="" class="form-control">
+													<input id="nama" name="nama" type="text" placeholder="Nama" class="form-control">
 												</div>
 											</div>
 										
 											<div class="form-group">
 												<label class="col-md-3 control-label" for="nim">NIM</label>
 												<div class="col-md-6">
-													<input id="nim" name="nim" type="text" placeholder="" class="form-control">
+													<input id="nim" name="nim" type="text" placeholder="NIm" class="form-control">
 												</div>
 											</div>
 											
@@ -59,7 +59,7 @@
 											<div class="form-group">
 												<label class="col-md-3 control-label" for="semester">Semester</label>
 												<div class="col-md-6">
-													<input id="semester" name="semester" type="text" placeholder="" class="form-control">
+													<input id="semester" name="semester" type="text" placeholder="Semester" class="form-control">
 												</div>
 											</div>
 
@@ -70,7 +70,7 @@
 													    <div class="input-group-addon">
 													       	<span class="glyphicon glyphicon-th"></span>
 													 	</div>
-													    <input placeholder="yyyy/mm/dd" type="text" class="form-control datepicker" name="tgl_lahir">
+													    <input placeholder="dd/mm/yyyy" type="text" class="form-control datepicker" name="tgl_lahir">
 													</div>
 												</div>
 											</div>
@@ -78,7 +78,7 @@
 											<div class="form-group">
 												<label class="col-md-3 control-label" for="alamat">Alamat</label>
 												<div class="col-md-6">
-													<textarea class="form-control" id="alamat" name="alamat" placeholder="" rows="5"></textarea>
+													<textarea class="form-control" id="alamat" name="alamat" placeholder="Alamat" rows="5"></textarea>
 												</div>
 											</div>
 
