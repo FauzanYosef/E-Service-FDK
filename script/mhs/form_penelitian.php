@@ -13,7 +13,7 @@
 		
 		<div class="row">
 			<div class="col-lg-12">
-				<h1 class="page-header">Form Surat Izin Penelitian</h1>
+				<h1 class="page-header">Form Surat Izin Riset Survey/Konsultasi</h1>
 			</div>
 		</div><!--/.row-->
 		
@@ -64,18 +64,6 @@
 											</div>
 
 											<div class="form-group">
-												<label class="col-md-3 control-label" for="tgl_lahir">Tanggal Lahir</label>
-												<div class="col-md-6">
-													<div class="input-group date">
-													    <div class="input-group-addon">
-													       	<span class="glyphicon glyphicon-th"></span>
-													 	</div>
-													    <input placeholder="dd/mm/yyyy" type="text" class="form-control datepicker" name="tgl_lahir">
-													</div>
-												</div>
-											</div>
-
-											<div class="form-group">
 												<label class="col-md-3 control-label" for="alamat">Alamat</label>
 												<div class="col-md-6">
 													<textarea class="form-control" id="alamat" name="alamat" placeholder="Alamat Harus Jelas Ex: Jln. Babakan Desa No.1, Cibiru, Pasirbiru Kota Bandung" rows="5"></textarea>
@@ -83,32 +71,72 @@
 											</div>
 
 											<div class="form-group">
-												<label class="col-md-3 control-label" for="telp">Telepon</label>
+												<label class="col-md-3 control-label" for="Tujuan_obs">Tujuan Observasi</label>
 												<div class="col-md-6">
-													<input id="telp" name="telp" type="text" placeholder="Nomor Telepon" class="form-control">
-												</div>
-											</div>								
-											<div class="form-group">
-												<label class="col-md-3 control-label" for="tmp_penelitian">Nama Instansi/Tempat Penelitian</label>
-												<div class="col-md-6">
-													<textarea class="form-control" id="tmp_penelitian" name="tmp_penelitian" placeholder="Nama Instansi Harus Jelas Ex: PT.Sejahtera Jaya Abadi, Kota Bandung" rows="5"></textarea>
+													<input id="Tujuan_obs" name="Tujuan_obs" type="text" placeholder="Nama Tujuan Observasi Ex: PT Jaya Abadi" class="form-control">
 												</div>
 											</div>
 
 											<div class="form-group">
-												<label class="col-md-3 control-label" for="alm_peneletian">Alamat Penelitian</label>
+												<label class="col-md-3 control-label" for="tmp_observasi">Alamat Observasi</label>
 												<div class="col-md-6">
-													<textarea class="form-control" id="alm_peneletian" name="alm_peneletian" placeholder="Alamat Harus Jelas Ex: Jln. Babakan Desa No.1, Cibiru, Pasirbiru Kota Bandung" rows="5"></textarea>
+													<textarea class="form-control" id="tmp_observasi" name="tmp_observasi" placeholder="Alamat Instansi Ex:Jl.A.H Nasution No.05, Kota Bandung" rows="5"></textarea>
+												</div>
+											</div>
+											
+											<div class="form-group">
+												<label class="col-md-3 control-label" for="jdl_masalah">Judul/Topik/Masalah</label>
+												<div class="col-md-6">
+													<textarea class="form-control" id="jdl_masalah" name="jdl_masalah" placeholder="Judul/Topik/Masalah" rows="5"></textarea>
+												</div>
+											</div>
+											
+											<div class="form-group">
+												<label class="col-md-3 control-label" for="dospem1">Dosen Pembimbing 1</label>
+												<div class="col-md-6">
+													<input id="dospem1" name="dospem1" type="text" placeholder="Dosen Pembimbing 1" class="form-control">
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label class="col-md-3 control-label" for="dospem2">Dosen Pembimbing 2</label>
+												<div class="col-md-6">
+													<input id="dospem2" name="dospem2" type="text" placeholder="Dosen Pembimbing 2" class="form-control">
 												</div>
 											</div>
 
 											<!-- Form actions -->
 											<div class="form-group">
-												<div class="col-md-6 widget-right">
+												<div class="col-md-4 widget-right">
 													<button type="submit" class="btn btn-primary btn-md pull-right">Submit</button>
 												</div>
-												<div class="col-md-6 widget-right">
+												<div class="col-md-4 widget-right">
 													<button type="submit" class="btn btn-danger btn-md pull-left">Reset</button>
+												</div>
+												<div class="col-md-4 widget-right">
+													<!-- Trigger the modal with a button -->
+													<button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal">Detail Surat</button>
+
+													<!-- Modal -->
+													<div id="myModal" class="modal fade" role="dialog">
+													  <div class="modal-dialog">
+
+													    <!-- Modal content-->
+													    <div class="modal-content">
+													      <div class="modal-header">
+													        <button type="button" class="close" data-dismiss="modal">&times;</button>
+													        <h4 class="modal-title">Detail Surat Izin Riset Survey/Konsultasi</h4>
+													      </div>
+													      <div class="modal-body">
+													        <p>Some text in the modal.</p>
+													      </div>
+													      <div class="modal-footer">
+													        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+													      </div>
+													    </div>
+
+													  </div>
+													</div>
 												</div>
 											</div>
 										</fieldset>

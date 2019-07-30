@@ -229,17 +229,18 @@
                 <li class="parent">
                     <a data-toggle="collapse" href="#sub-item-1">Pengajuan Surat<span data-toggle="collapse" href="#sub-item-1" class="caret"></span></a>
                         <ul class="dropdown-menu" id="sub-item-1">
-                            <li><a class="" href="script/mhs/form_sak.php">Aktif Kuliah</a></li>
-                            <li><a class="" href="script/mhs/form_skkb.php">Keterangan Kelakuan Baik</a></li>
+                            <li><a class="" href="script/mhs/form_surat.php">Surat Keterangan</a></li>
+                            <li><a class="" href="script/mhs/form_kunjungan.php">Izin Kunjungan</a></li>
+                            <!-- <li><a class="" href="script/mhs/form_skkb.php">Keterangan Kelakuan Baik</a></li> -->
                             <li><a class="" href="script/mhs/form_spmk.php">Surat Pernyataan Masih Kuliah</a></li>
                             <li><a class="" href="script/mhs/form_observasi.php">Surat Observasi</a></li>
-                            <li><a class="" href="script/mhs/form_skripsi.php">Bimbingan Skripsi</a></li>
-                            <li><a class="" href="script/mhs/form_penelitian.php">Izin Penelitian</a></li>
-                            <li><a class="" href="script/mhs/form_pkl.php">Praktek Kerja Lapangan</a></li>
-                            <li><a class="" href="script/mhs/form_skl.php">Surat Keterangan Lulus</a></li>
-                            <li><a class="" href="script/mhs/form_legalisir.php">Legalisir Ijazah/Transkrip Nilai</a></li>
-                            <li><a class="" href="script/mhs/form_ijazah.php">Pengambilan Ijazah</a></li>
-                            <li><a class="" href="script/mhs/form_lainnya.php">Surat Keterangan Lainnya</a></li>
+                            <li><a class="" href="script/mhs/form_skripsi.php">Ujian Munaqosyah</a></li>
+                            <li><a class="" href="script/mhs/form_penelitian.php">Izin Riset Survey</a></li>
+                            <li><a class="" href="script/mhs/form_ppm.php">Praktek Profesi Mahasiswa</a></li>
+                            <!-- <li><a class="" href="script/mhs/form_skl.php">Surat Keterangan Lulus</a></li> -->
+                            <li><a class="" href="script/mhs/form_training.php">Persiapan Job Training</a></li>
+                            <li><a class="" href="script/mhs/form_ipmk.php">Izin Praktik Mata Kuliah</a></li>
+                            <!-- <li><a class="" href="script/mhs/form_lainnya.php">Surat Keterangan Lainnya</a></li> -->
                         </ul>
                 </li>
                 <li><a href="#about">Tentang Kami</a></li> 

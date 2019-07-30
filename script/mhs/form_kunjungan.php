@@ -13,7 +13,7 @@
 		
 		<div class="row">
 			<div class="col-lg-12">
-				<h1 class="page-header">Form Pengajuan Surat Pernyataan Masih Kuliah</h1>
+				<h1 class="page-header">Form Permohonan Izin Kunjungan</h1>
 			</div>
 		</div><!--/.row-->
 		
@@ -28,20 +28,35 @@
 								<div class="panel-body">
 									<form class="form-horizontal" action="" method="post">
 										<fieldset>
+
 											<div class="form-group">
-												<label class="col-md-3 control-label" for="nama">Nama</label>
+												<label class="col-md-3 control-label" for="Tujuan_obs">Tujuan Observasi</label>
 												<div class="col-md-6">
-													<input id="nama" name="nama" type="text" placeholder="Nama" class="form-control">
+													<input id="Tujuan_obs" name="Tujuan_obs" type="text" placeholder="Nama Tujuan Observasi Ex: PT Jaya Abadi" class="form-control">
 												</div>
 											</div>
-										
+
 											<div class="form-group">
-												<label class="col-md-3 control-label" for="nim">NIM</label>
+												<label class="col-md-3 control-label" for="tmp_observasi">Alamat Observasi</label>
 												<div class="col-md-6">
-													<input id="nim" name="nim" type="text" placeholder="NIM" class="form-control">
+													<textarea class="form-control" id="tmp_observasi" name="tmp_observasi" placeholder="Alamat Instansi Ex:Jl.A.H Nasution No.05, Kota Bandung" rows="5"></textarea>
 												</div>
 											</div>
-											
+
+											<div class="form-group">
+												<label class="col-md-3 control-label" for="matkul">Mata Kuliah</label>
+												<div class="col-md-6">
+													<input id="matkul" name="matkul" type="text" placeholder="Mata Kuliah" class="form-control">
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label class="col-md-3 control-label" for="dos_mk">Dosen Pengampu</label>
+												<div class="col-md-6">
+													<input id="dos_mk" name="dos_mk" type="text" placeholder="Nama Dosen Pengampu Mata Kuliah" class="form-control">
+												</div>
+											</div>
+
 											<div class="form-group">
 												<label class="col-md-3 control-label">Program Studi</label>
 												<div class="col-md-6">
@@ -64,32 +79,31 @@
 											</div>
 
 											<div class="form-group">
-												<label class="col-md-3 control-label" for="nama_ortu">Nama Orang Tua</label>
+												<label class="col-md-3 control-label" for="kelas">Kelas</label>
 												<div class="col-md-6">
-													<input id="nama_ortu" name="nama_ortu" type="text" placeholder="Nama Orang Tua" class="form-control">
+													<input id="kelas" name="kelas" type="text" placeholder="Kelas Mata Kuliah" class="form-control">
 												</div>
 											</div>
 
 											<div class="form-group">
-												<label class="col-md-3 control-label" for="nip">NIP/NRP/NVP</label>
+												<label class="col-md-3 control-label" for="tgl_kunjungan">Tanggal</label>
 												<div class="col-md-6">
-													<input id="nip" name="nip" type="text" placeholder="NIP" class="form-control">
+													<div class="input-group date">
+													    <div class="input-group-addon">
+													       	<span class="glyphicon glyphicon-th"></span>
+													 	</div>
+													    <input placeholder="dd/mm/yyyy" type="text" class="form-control datepicker" name="tgl_kunjungan">
+													</div>
 												</div>
 											</div>
 
 											<div class="form-group">
-												<label class="col-md-3 control-label" for="pangkat">Pangkat/Golongan</label>
+												<label class="col-md-3 control-label" for="jam">Jam</label>
 												<div class="col-md-6">
-													<input id="pangkat" name="pangkat" type="text" placeholder="Ex : IVA" class="form-control">
+													<input id="jam" name="jam" type="text" placeholder="Ex : 17:00 WIB" class="form-control">
 												</div>
 											</div>
-											
-											<div class="form-group">
-												<label class="col-md-3 control-label" for="nama_instansi">Instansi</label>
-												<div class="col-md-6">
-													<textarea class="form-control" id="nama_instansi" name="nama_instansi" placeholder="Nama Instansi harus jelas, ex : UIN Sunan Gunung Djati Bandung" rows="5"></textarea>
-												</div>
-											</div>
+
 											<!-- Form actions -->
 											<div class="form-group">
 												<div class="col-md-4 widget-right">
@@ -110,7 +124,7 @@
 													    <div class="modal-content">
 													      <div class="modal-header">
 													        <button type="button" class="close" data-dismiss="modal">&times;</button>
-													        <h4 class="modal-title">Detail Surat Pernyataan Masih Kuliah</h4>
+													        <h4 class="modal-title">Detail Surat Izin Kunjungan</h4>
 													      </div>
 													      <div class="modal-body">
 													        <p>Some text in the modal.</p>
