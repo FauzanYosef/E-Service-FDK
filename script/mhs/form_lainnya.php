@@ -29,9 +29,9 @@
 									<form class="form-horizontal" action="" method="post">
 										<fieldset>
 											<div class="form-group">
-												<label class="col-md-3 control-label" for="nama">Nama</label>
+												<label class="col-md-3 control-label">Nama</label>
 												<div class="col-md-6">
-													<input id="nama" name="nama" type="text" placeholder="Nama" class="form-control">
+													<div class="well well-sm">Nama</div>
 												</div>
 											</div>
 										
